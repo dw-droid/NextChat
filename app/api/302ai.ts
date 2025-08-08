@@ -16,7 +16,7 @@ export async function handle(
   req: NextRequest,
   { params }: { params: { path: string[] } },
 ) {
-  console.log("[302.AI Route] params ", params);
+ /* console.log("[302.AI Route] params ", params);
 
   if (req.method === "OPTIONS") {
     return NextResponse.json({ body: "OK" }, { status: 200 });
@@ -35,7 +35,7 @@ export async function handle(
   } catch (e) {
     console.error("[302.AI] ", e);
     return NextResponse.json(prettyObject(e));
-  }
+  }*/
 }
 
 async function request(req: NextRequest) {
