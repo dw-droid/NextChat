@@ -141,6 +141,8 @@ export enum ModelProvider {
   Iflytek = "Iflytek",
   XAI = "XAI",
   ChatGLM = "ChatGLM",
+  "302.AI" = "302.AI",
+
 }
 
 export const Stability = {
